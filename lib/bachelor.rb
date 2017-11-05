@@ -60,4 +60,23 @@ end
 
 def get_average_age_for_season(data, season)
   # code here
+  ages = []
+
+  data[season].each do |name|
+    name.each do |stat, val|
+      ages.push(name["age"])
+    end
+  end
+
+  #average the numbers
+  sum = 0
+  ages.each do |x|
+    sum += x
+  end
+
+  average = sum / ages.length
+  
+    
+
+  
 end
