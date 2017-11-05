@@ -23,7 +23,7 @@ def get_contestant_name(data, occupation)
       end
     end
   end
-  
+
 
 end
 
@@ -40,7 +40,7 @@ def count_contestants_by_hometown(data, hometown)
     end
   end
   return count
-          
+
 end
 
 def get_occupation(data, hometown)
